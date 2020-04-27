@@ -1,0 +1,77 @@
+.navbar {
+    display : flex;
+    justify-content: space-around ;
+    background-color: seashell;
+   
+}
+
+.titlesec {
+    color :white;
+    margin: 50px 100px 10px 100px ; 
+    text-align: center;
+}
+
+.articlebr {
+    display: flex;
+    flex-direction: column;
+    background-color: teal;
+}
+.button {
+    background-color: transparent;
+    border: none;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+}
+  
+.button:hover {
+    background-color: pink ; 
+    cursor: pointer;
+  }
+.myinput {
+    margin : 20px 500px ;
+    border-radius: 5px ;
+    padding : 10px ; 
+}
+.mylabel {
+    text-align: center ;
+}
+.mybutton {
+    border-radius: 20px ;
+    text-align: center;
+    padding: 20px;
+    margin-left: 630px;  
+    margin-bottom: 10px ; 
+    color : teal; 
+}
+.mybutton:hover {
+    background-color: pink;
+    cursor: pointer;
+
+}
+
+aside {
+    background-color:seashell; 
+    text-align: right;  
+}
+
+footer {
+    background-color: lightgray;
+}
+
+.imgheader {
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 10%;
+    position : absolute;
+    margin :0;
+    z-index:-1;
+}
+#clr {
+    color : white ; 
+}
+ .myfooter {
+     display: flex;
+     flex-direction: column;
+ }
+
